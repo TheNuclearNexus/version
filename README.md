@@ -42,4 +42,5 @@ if score <CMD>.<name> patch matches 0 say Found <name>!
 
 ###Example version tellraw
 ```mcfunction
-tellraw @a ["'Name' v",{"score":{"name":"CMD.name","objective":"major"}},".",{"score":{"name":"CMD.name","objective":"minor"}},".",{"score":{"name":"CMD.name","objective":"patch"}}, " Loaded"]```
+tellraw @a ["'Name' v",{"score":{"name":"CMD.name","objective":"major"}},".",{"score":{"name":"CMD.name","objective":"minor"}},".",{"score":{"name":"CMD.name","objective":"patch"}}, " Loaded"]
+```
