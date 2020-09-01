@@ -12,6 +12,7 @@ scoreboard players set 425.version minor 0
 scoreboard players set 425.version patch 0
 #  Load other packs
 function #version:load
+function #version:post_load
 #  Start ticking loop
 schedule clear version:tick
 schedule function version:tick 1t append
